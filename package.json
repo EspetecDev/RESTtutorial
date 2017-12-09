@@ -1,0 +1,30 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "RESTFUL api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manutheking/RESTtutorial.git"
+  },
+  "keywords": [
+    "RESTful"
+  ],
+  "author": "manutheking",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manutheking/RESTtutorial/issues"
+  },
+  "homepage": "https://github.com/manutheking/RESTtutorial#readme",
+  "devDependencies": {
+    "nodemon": "^1.12.5"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^4.13.6"
+  }
+}
